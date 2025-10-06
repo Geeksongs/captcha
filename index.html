@@ -241,7 +241,7 @@
         <div class="columns is-centered">
           <div class="column has-text-centered">
             <!-- TODO: Replace with your paper title -->
-            <h1 class="title is-1 publication-title">Academic Project Page</h1>
+            <h1 class="title is-1 publication-title">Reasoning Under Vision: Understanding Visual-Spatial Cognition in Vision-Language Models for CAPTCHA</h1>
             <div class="is-size-5 publication-authors">
               <!-- TODO: Replace with your paper authors and their personal links -->
               <span class="author-block">
@@ -341,7 +341,8 @@
         <div class="content has-text-justified">
           <!-- TODO: Replace with your paper abstract -->
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+            CAPTCHA, originally designed to distinguish humans from robots, has evolved into a real-world benchmark for assessing the spatial reasoning capabilities of vision-language models.  In this work, we first show that step-by-step reasoning is crucial for vision-language models (VLMs) to solve CAPTCHAs, which represent high-difficulty spatial reasoning tasks, and that current commercial vision-language models still struggle with such reasoning.
+In particular, we observe that most commercial VLMs (e.g., Gemini, Claude, GPT, etc.) fail to effectively solve CAPTCHA and thus achieve low accuracy($\sim$ \textbf{21.9\%}), but our findings indicate that requiring the model to perform step-by-step reasoning before generating the final coordinates can significantly enhance its solving accuracy, this underscoring the severity of the gap.  To systematically study this issue, we introduce \textbf{\benchmark}, the first real-world CAPTCHA benchmark with reasoning, covering seven categories of CAPTCHAs (e.g., Gobang, Hcaptcha, etc) with step-by-step action solutions, and grounding annotations. We further define five reasoning-oriented metrics that enable a comprehensive evaluation of models’ reasoning capabilities.  To further verify the effectiveness of reasoning, we propose a general agentic VLMs-based framework, incorporating the reasoning abilities of the model itself. Our method achieves state-of-the-art performance across five high-difficulty CAPTCHA types in general agents, with an average solving accuracy of \textbf{83.9\%}, substantially surpassing existing baselines. These results both reveal the limitations of current models and highlight the importance of reasoning in advancing visual-spatial challenges in the future.
           </p>
         </div>
       </div>
